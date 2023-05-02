@@ -1,7 +1,9 @@
 
-
 import { ITask } from "./types/tasks"
 
+
+
+//url from local host
 const baseURl ='http://localhost:3001'
 
 
@@ -46,3 +48,6 @@ export const deleteTodo = async (id: string): Promise<void> => {
 
     })
 }
+
+
+
